@@ -1,0 +1,11 @@
+1) ping www.google.co.in : is used to check if a website or a computer is reachable on internet.
+
+2) tracert www.google.co.in : it displays a list of immediate routers or network devices.
+
+3) pathping www.google.co.in : it provides detailed info about network latency and packet loss.
+
+4) ipconfig : used in windows OS to display info about network configuration of you computer.
+
+5) arp : used to view and manage the arp cache , which is a table that maps IP address to mac addresses in local network.
+
+6) arp -a : is used to display current contents of ap cache on your computer.

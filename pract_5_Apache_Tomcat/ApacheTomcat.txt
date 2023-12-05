@@ -1,0 +1,59 @@
+1) apache2
+
+step1 : FOR INSTALLING apache2 
+    CMD1: sudo apt-get install apache2 
+
+step2 : FOR UPDATING apache2
+    CMD2: sudo apt-get update
+
+step3 : FOR CHECKING STATUS OF apache2
+    CMD3: sudo service apache2 status
+
+step4 : FOR MAKING apache2 ACTIVE
+    CMD4: sudo service apache2 start   [for making apache2 active]
+
+step5: Run Cmd3 again to check whether apache2 is active or inactive.
+
+step6 : Now Run [   http://localhost  ] on Kali's chrome.
+       if it shows "it works" then you have successfully installed apache2.
+
+
+
+2) Tomcat 
+
+step1 : Run Apachetomcat dwnld on your normal chrome. [  https://tomcat.apache.org/download-80.cgi ]
+
+step2 : see 2nd link of core : tar.gz (pgp, sha512)
+
+step3 : dwnld that link
+
+step4 : FOR EXTRACTING Tomcat file which we have dwnlded in step3 
+   CMD1: sudo tar -xvf ~/apache-tomcat-8.5.96.tar.gz -C /opt
+
+step5 : FOR STARTING Tomcat 
+   CMD2: sudo /opt/apache-tomcat-8.5.96/bin/startup.sh
+
+step6 : Now we have to make a website
+   CMD3: sudo mkdir /var/www/html/mywebsite   [ run this cmd to make directory of name mywebsite ]
+
+step7 : NOW RUN BELLOW CMD FOR MAKING WEBSITE
+   CMD4: sudo nano /var/www/html/mywebsite/index.html
+        
+step8 : NOW PASTE BELOW CODE 
+   CODE1: <!DOCTYPE html>
+          <html>
+          <head>
+          <title>My Website</title>
+          </head>
+          <body>
+          <h1>Welcome to My Website</h1>
+          </body>
+          </html>
+    
+     CLICK ctrl + O --> ENTER 
+
+step9 : PUT [  http://localhost/mywebsite  ] ON KALI'S CHROME
+
+
+
+    

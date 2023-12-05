@@ -1,0 +1,13 @@
+1) ls : to list files in a directory.
+2) pwd : present working directory.
+3) touch : create,change, modify time space.
+4) clear : clear screen.
+5) whoami : display current user.
+6) vi : text editor.    (To exit : ctrl+z)
+7) cat : used to concatenate display content of file.     (To exit : ctrl+c)
+8) mkdir : make directory.
+9) rmdir : remove directory.
+10) cp : copy file
+11) echo : used to print text.
+12) man : display mannual page.
+13) grep : It searches a file for a particular pattern. [grep "search_string" filename.txt]
